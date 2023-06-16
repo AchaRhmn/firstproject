@@ -1,0 +1,138 @@
+
+
+body { 
+    color: rgb(202, 229, 253);
+    background-color: black;
+    font-family:'Abyssinica SIL', sans-serif;
+    background-image: url("../element/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+
+}
+
+.link {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    
+}
+
+a { 
+    float: left;
+    display: block;
+    color: rgb(202, 229, 253);
+    padding: 15px 17px;
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+
+
+.link a:hover{
+    background-color: rgb(36, 111, 203);
+}
+
+.nama a {
+    text-decoration: none;
+}
+
+
+
+img {
+    width: 30%;
+    display: block;
+    margin-right: 20px;
+    border-left:solid 15px;
+    border-bottom:solid 15px;
+    border-color: rgb(202, 229, 253);
+    border-style: double;
+    margin-left: 20px;
+    float: left;
+
+    
+}
+
+
+h1 {
+    font-size: 350%;
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    color: rgb(202, 229, 253);
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 16%;
+}
+
+.contac{
+    text-align: center;
+    width: 50%;
+    color: rgb(202, 229, 253);
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+}
+
+video {
+    width: 20%;
+    border: solid 2px rgb(202, 229, 253);
+    border-radius: 10%;
+}
+
+
+.aboutme{
+    text-align: center;
+    width: 50%;
+    color: rgb(202, 229, 253);
+    margin-top: 8%;
+    margin-left: 25%;
+    margin-right: 15%;
+    margin-bottom: 8%;
+
+}
+
+input {
+    width: 300px;
+    height: 30px;
+
+    
+}
+
+textarea {
+    width: 300px;
+}
+
+button {
+    border: 0ch;
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(34, 125, 210);
+
+
+}
+
+button:hover {
+    background-color: rgb(66, 158, 245);
+}
+
+.header {
+    grid-area: header;
+    border: solid 5px rgb(202, 229, 253);
+}
+
+.table {
+    display: flex;
+}
+
